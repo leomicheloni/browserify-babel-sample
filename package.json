@@ -1,0 +1,24 @@
+{
+  "name": "browserify-babel",
+  "version": "1.0.0",
+  "description": "A sample app on using Browserify + Babel",
+  "main": "index.js",
+  "scripts": {
+    "watch": "watchify main.js -t babelify --o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leomicheloni/browserify-babel-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leomicheloni/browserify-babel-sample/issues"
+  },
+  "homepage": "https://github.com/leomicheloni/browserify-babel-sample#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babelify": "^6.3.0",
+    "watchify": "^3.3.1"
+  }
+}
